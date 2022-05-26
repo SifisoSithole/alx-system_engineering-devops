@@ -14,4 +14,6 @@ This repository contains the following scripts:
 
 6-muliple_permissions - This script adds multiple permission to the file hello
 
+7-everybody - This script adds execution permission to the owner, the group owner and the other users, to the file hello
 
+8-James_Bond - This script removes all permissions from the owner and group, and gives all the permissions on other users
