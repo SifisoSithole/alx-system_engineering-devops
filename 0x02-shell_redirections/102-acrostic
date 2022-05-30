@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1 | sed "s/\n/// 8 q" 
+cut -c1 | tr - d "\n" | sed '/$/ a "\n"' 
