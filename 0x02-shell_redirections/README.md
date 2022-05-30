@@ -4,3 +4,5 @@
 3-twofiles - This script displays the content of /etc/passwd and /etc/hosts
 5-firstlines - This script displays the first 10 lines of /etc/passwd
 6-third_line - This scriptdisplays the third line of the file iacta
+8-cwd_state - This script writes into the file ls_cwd_content the result of the command ls -la
+9-duplicate_last_line - This script duplicates the last line of the file iacta
