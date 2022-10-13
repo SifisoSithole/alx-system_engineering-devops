@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Prints the conents of a directory
-for list in  `ls `; do
-	echo $list | cut -d- -f2
+for list in *; do
+	echo "$list" | cut -d- -f2
 done
