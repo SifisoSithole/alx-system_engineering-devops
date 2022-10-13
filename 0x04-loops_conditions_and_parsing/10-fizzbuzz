@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# FizzBuzz solution
+for i in {1..100}; do
+	res=$((i % 3))
+	if [ "$res" == 0 ]; then
+		echo -n "Fizz"
+	fi
+
+	res2=$((i % 5))
+	if [ "$res2" == 0 ]; then
+		echo -n "Buzz"
+	fi	
+
+	if [ "$res" != 0 ] && [ "$res2" != 0 ]; then
+		echo -n "$i"
+	fi
+
+	echo ""
+done
