@@ -2,14 +2,14 @@
 # script
 
 function delete() {
-    rm /var/run/holbertonscript.pid
+    rm /var/run/myscript.pid
     exit
 }
 
 trap "echo I hate the kill command; delete" SIGTERM
 trap "echo Y U no love me?!; delete" SIGINT
 
-echo $$ >> /var/run/holbertonscript.pid
+touch /var/run/myscript.pid
 while 'true'; do
     echo To infinity and beyond;
 done
