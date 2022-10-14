@@ -7,9 +7,9 @@ function delete() {
 }
 
 trap "echo I hate the kill command; delete" SIGTERM
-trap "echo Y U no love me?!; delete" SIGINT
+trap "echo Y U no love me?!" SIGINT
 
-echo $$ /var/run/myscript.pid
+echo $$ > /var/run/myscript.pid
 while 'true'; do
     echo To infinity and beyond;
 done
