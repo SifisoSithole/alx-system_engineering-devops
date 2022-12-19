@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Configures Nginx so that its HTTP response contains a custom header X-Served-By
+sed -i "26 a add_header X-Served-By $HOSTNAME;" /etc/nginx/sites-enabled/default
+service nginx restart
