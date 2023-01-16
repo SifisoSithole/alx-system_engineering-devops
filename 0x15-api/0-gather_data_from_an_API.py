@@ -9,8 +9,8 @@ First line: Employee EMPLOYEE_NAME is done with tasks(NUMBER_OF_DONE_TASKS/TOTAL
 """
 
 if __name__ == "__main__":
-    import sys
     import requests
+    import sys
 
     url = f'https://jsonplaceholder.typicode.com/users/{sys.argv[1]}/todos'
     req = requests.get(url)
