@@ -1,11 +1,5 @@
 #!/usr/bin/python3
-'''This script takes an employee ID and
-returns information about his/her TODO list progress.
-First line: Employee EMPLOYEE_NAME is done with tasks(NUMBER_OF_DONE_TASKS/TOTAL_NUMBER_OF_TASKS):
-    EMPLOYEE_NAME: name of the employee
-    NUMBER_OF_DONE_TASKS: number of completed tasks
-    TOTAL_NUMBER_OF_TASKS: total number of tasks, which is the sum of completed and non-completed tasks
-'''
+
 
 if __name__ == "__main__":
     import requests
