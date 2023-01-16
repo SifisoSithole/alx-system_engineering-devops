@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """This script takes an employee ID and
-
 returns information about his/her TODO list progress.
 First line: Employee EMPLOYEE_NAME is done with tasks(NUMBER_OF_DONE_TASKS/TOTAL_NUMBER_OF_TASKS):
     EMPLOYEE_NAME: name of the employee
@@ -27,3 +26,4 @@ if __name__ == "__main__":
     print(msg)
     for task in com_tasks:
         print('\t ' + task)
+
