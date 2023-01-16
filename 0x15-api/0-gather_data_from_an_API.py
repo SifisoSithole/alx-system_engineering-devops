@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-'''
+"""
 Script that returns information from an api
-'''
+"""
 
 if __name__ == "__main__":
     import requests
