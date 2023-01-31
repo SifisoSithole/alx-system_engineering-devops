@@ -6,6 +6,7 @@ posts listed for a given subreddit
 
 import requests
 
+
 def top_ten(subreddit):
     """ top ten posts """
     url = 'https://www.reddit.com/r/{}/hot.json'.format(subreddit)
